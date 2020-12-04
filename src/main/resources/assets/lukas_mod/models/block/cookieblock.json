@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lukas_mod:blocks/cookieblock",
+    "particle": "lukas_mod:blocks/cookieblock"
+  }
+}

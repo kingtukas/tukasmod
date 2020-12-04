@@ -1,0 +1,26 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sword",
+    "customModelName": "Normal",
+    "name": "SWORD",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 1.0,
+    "attackSpeed": 31.0,
+    "enchantability": 2,
+    "damageVsEntity": 18.0,
+    "usageCount": 99,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

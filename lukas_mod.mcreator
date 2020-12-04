@@ -1,0 +1,129 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Cookieblock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cookieblock"
+    },
+    {
+      "name": "Endpick",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endpick"
+    },
+    {
+      "name": "Endsword",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endsword"
+    },
+    {
+      "name": "Endpickaxe",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endpickaxe"
+    },
+    {
+      "name": "Endarmor",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endarmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby"
+    },
+    {
+      "name": "SWORD",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sword"
+    },
+    {
+      "name": "Ian",
+      "type": "mob",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ian"
+    },
+    {
+      "name": "Airplane",
+      "type": "mob",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "airplane"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.lukas_mod.sword": "SWORD",
+      "item.lukas_mod.endarmor_chestplate": "Endarmor Body",
+      "entity.lukas_mod.ian": "Ian",
+      "item.lukas_mod.endpick": "Endpick",
+      "item.lukas_mod.endsword": "Endsword",
+      "item.lukas_mod.airplane": "Airplane Spawn Egg",
+      "block.lukas_mod.cookieblock": "Cookieblock",
+      "entity.lukas_mod.airplane": "Airplane",
+      "item.lukas_mod.endpickaxe": "Endpickaxe",
+      "item.lukas_mod.endarmor_leggings": "Endarmor Leggings",
+      "item.lukas_mod.ruby": "Ruby",
+      "item.lukas_mod.endarmor_helmet": "Endarmor Helmet",
+      "item.lukas_mod.endarmor_boots": "Endarmor Boots",
+      "item.lukas_mod.ian": "Ian Spawn Egg"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "lukas_mod",
+    "modName": "lukas mod",
+    "version": "1.0.0",
+    "author": "lukasmcvey, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.lukasmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

@@ -1,0 +1,114 @@
+{
+  "_fv": 10,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Ian",
+    "mobLabel": "",
+    "mobModelName": "Biped",
+    "mobModelTexture": "2020_08_26_fire-and-water-enderman-15147064.png",
+    "mobModelGlowTexture": "",
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -65536,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -6750157,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": true,
+    "bossBarColor": "PURPLE",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": "Items.BLAZE_ROD"
+    },
+    "equipmentOffHand": {
+      "value": "Items.BLAZE_ROD"
+    },
+    "equipmentHelmet": {
+      "value": "Items.DIAMOND_HELMET"
+    },
+    "equipmentBody": {
+      "value": "Items.DIAMOND_CHESTPLATE"
+    },
+    "equipmentLeggings": {
+      "value": "Items.DIAMOND_LEGGINGS"
+    },
+    "equipmentBoots": {
+      "value": "Items.DIAMOND_BOOTS"
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 25,
+    "movementSpeed": 1.2000000000000002,
+    "armorBaseValue": 3.9999999999999996,
+    "trackingRange": 74,
+    "health": 1001,
+    "xpAmount": 100000,
+    "waterMob": false,
+    "flyingMob": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": true,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": true,
+    "immuneToPotions": true,
+    "immuneToPlayer": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "ambient.cave"
+    },
+    "hurtSound": {
+      "value": "block.anvil.fall"
+    },
+    "deathSound": {
+      "value": "block.brewing_stand.brew"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "hasAI": true,
+    "aiBase": "Blaze",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 1,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}
