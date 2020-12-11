@@ -87,6 +87,136 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "airplane"
+    },
+    {
+      "name": "Girl",
+      "type": "mob",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "girl"
+    },
+    {
+      "name": "Explode",
+      "type": "enchantment",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explode"
+    },
+    {
+      "name": "Herobrine",
+      "type": "mob",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herobrine"
+    },
+    {
+      "name": "SlayerRightClickedInAir",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slayer_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Slayer",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slayer"
+    },
+    {
+      "name": "Slayerecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slayerecipe"
+    },
+    {
+      "name": "Prisoner",
+      "type": "mob",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "prisoner"
+    },
+    {
+      "name": "Dagger",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dagger",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Christmasahhhhhhh",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "christmasahhhhhhh"
+    },
+    {
+      "name": "Buischick",
+      "type": "mob",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "buischick"
     }
   ],
   "variable_elements": [],
@@ -94,19 +224,30 @@
   "language_map": {
     "en_us": {
       "item.lukas_mod.sword": "SWORD",
+      "item.lukas_mod.endsword": "Endsword",
+      "block.lukas_mod.cookieblock": "Cookieblock",
+      "item.lukas_mod.herobrine": "Herobrine Spawn Egg",
+      "entity.lukas_mod.girl": "Girl",
+      "item.lukas_mod.endarmor_leggings": "Endarmor Leggings",
+      "item.lukas_mod.buischick": "Buischick Spawn Egg",
+      "entity.lukas_mod.buischick": "Buischick",
+      "enchantment.lukas_mod.explode": "Explode",
+      "item.lukas_mod.endarmor_boots": "Endarmor Boots",
+      "item.lukas_mod.ian": "Ian Spawn Egg",
       "item.lukas_mod.endarmor_chestplate": "Endarmor Body",
       "entity.lukas_mod.ian": "Ian",
       "item.lukas_mod.endpick": "Endpick",
-      "item.lukas_mod.endsword": "Endsword",
       "item.lukas_mod.airplane": "Airplane Spawn Egg",
-      "block.lukas_mod.cookieblock": "Cookieblock",
       "entity.lukas_mod.airplane": "Airplane",
+      "entity.lukas_mod.herobrine": "Herobrine",
       "item.lukas_mod.endpickaxe": "Endpickaxe",
-      "item.lukas_mod.endarmor_leggings": "Endarmor Leggings",
+      "item.lukas_mod.prisoner": "Prisoner Spawn Egg",
+      "entity.lukas_mod.prisoner": "Prisoner",
       "item.lukas_mod.ruby": "Ruby",
       "item.lukas_mod.endarmor_helmet": "Endarmor Helmet",
-      "item.lukas_mod.endarmor_boots": "Endarmor Boots",
-      "item.lukas_mod.ian": "Ian Spawn Egg"
+      "item.lukas_mod.slayer": "Slayer",
+      "item.lukas_mod.girl": "Girl Spawn Egg",
+      "item.lukas_mod.christmasahhhhhhh": "dagger"
     }
   },
   "workspaceSettings": {

@@ -1,0 +1,29 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "slayer",
+    "customModelName": "Normal",
+    "name": "Slayer",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 7,
+    "efficiency": 1.5,
+    "attackSpeed": 45.0,
+    "enchantability": 10,
+    "damageVsEntity": 89.0,
+    "usageCount": 100000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "SlayerRightClickedInAir"
+    }
+  }
+}

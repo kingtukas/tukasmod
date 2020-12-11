@@ -1,0 +1,42 @@
+{
+  "group": "lukas_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "lukas_mod:sword"
+    },
+    "1": {
+      "item": "lukas_mod:endpickaxe"
+    },
+    "2": {
+      "item": "minecraft:diamond_sword"
+    },
+    "3": {
+      "item": "minecraft:trident"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "minecraft:beacon"
+    },
+    "6": {
+      "item": "minecraft:enchanting_table"
+    },
+    "7": {
+      "item": "minecraft:obsidian"
+    },
+    "8": {
+      "item": "minecraft:prismarine_bricks"
+    }
+  },
+  "result": {
+    "item": "lukas_mod:slayer",
+    "count": 1
+  }
+}

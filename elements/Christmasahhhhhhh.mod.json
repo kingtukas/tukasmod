@@ -1,0 +1,32 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "dagger",
+    "customModelName": "Normal",
+    "name": "dagger",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 0.0,
+    "attackSpeed": 27.3,
+    "enchantability": 0,
+    "damageVsEntity": 6.0,
+    "usageCount": 70,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "SlayerRightClickedInAir"
+    },
+    "onEntityHitWith": {
+      "name": "Dagger"
+    }
+  }
+}
